@@ -4,3 +4,7 @@
 `src/intervals.py` so the whole test suite passes. Do not modify the tests.
 
 Run the tests with: `python3 -m unittest discover -s tests -q`
+
+Additional content and design fixtures live under `tasks/`. Their hidden
+verifier scripts are served by the registry so agents cannot inspect exact
+assertions during a trial.

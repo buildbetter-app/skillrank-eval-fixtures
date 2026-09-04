@@ -1,0 +1,5 @@
+slug,name,category,setup_minutes,best_for
+slack,Slack,team-messaging,5,Routing urgent workflow alerts to the right channel
+hubspot,HubSpot,crm,12,Keeping lifecycle stages synchronized after handoffs
+notion,Notion,knowledge,8,Turning approved workflow output into living documentation
+linear,Linear,issue-tracking,7,Creating traceable engineering follow-up from operational events
