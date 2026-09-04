@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RelayOps integrations directory</title>
+  <meta name="description" content="Compare RelayOps integrations by category, setup time, and best-for use case to choose the right workflow fit.">
+  <link rel="canonical" href="https://relayops.example/integrations/">
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --panel: #ffffff;
+      --text: #172026;
+      --muted: #5b6872;
+      --accent: #215a6d;
+      --accent-2: #c55f3d;
+      --border: #d8d1c7;
+      --shadow: 0 12px 30px rgba(23, 32, 38, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(33, 90, 109, 0.09), transparent 34%),
+        radial-gradient(circle at top right, rgba(197, 95, 61, 0.08), transparent 28%),
+        var(--bg);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 48px 20px 64px; }
+    header { margin-bottom: 28px; }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--accent);
+      background: rgba(255,255,255,0.7);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 14px 0 10px; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.05; max-width: 12ch; }
+    .lede { max-width: 70ch; font-size: 1.06rem; color: var(--muted); margin: 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+    .card h2 { margin: 0 0 8px; font-size: 1.25rem; }
+    .meta { margin: 0 0 10px; color: var(--muted); font-size: 0.95rem; }
+    a { color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent-2); }
+    .pill {
+      display: inline-block;
+      margin: 0 0 12px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f3ede6;
+      color: #5f4638;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(216, 209, 199, 0.9);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="eyebrow">RelayOps integrations</span>
+      <h1>Pick the integration that fits the workflow.</h1>
+      <p class="lede">This directory keeps the decision simple: each page summarizes the category, setup time, and intended use case so you can compare integrations before you wire one into RelayOps.</p>
+    </header>
+
+    <main>
+      <section class="grid" aria-label="Integration list">
+        <article class="card">
+          <span class="pill">team-messaging</span>
+          <h2><a href="pages/slack.html">Slack</a></h2>
+          <p class="meta">Setup time: 5 minutes</p>
+          <p>Best for routing urgent workflow alerts to the right channel.</p>
+        </article>
+        <article class="card">
+          <span class="pill">crm</span>
+          <h2><a href="pages/hubspot.html">HubSpot</a></h2>
+          <p class="meta">Setup time: 12 minutes</p>
+          <p>Best for keeping lifecycle stages synchronized after handoffs.</p>
+        </article>
+        <article class="card">
+          <span class="pill">knowledge</span>
+          <h2><a href="pages/notion.html">Notion</a></h2>
+          <p class="meta">Setup time: 8 minutes</p>
+          <p>Best for turning approved workflow output into living documentation.</p>
+        </article>
+        <article class="card">
+          <span class="pill">issue-tracking</span>
+          <h2><a href="pages/linear.html">Linear</a></h2>
+          <p class="meta">Setup time: 7 minutes</p>
+          <p>Best for creating traceable engineering follow-up from operational events.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      Compare pages by the workflow they support, the setup time they require, and whether the best-for use case matches the job you need to solve.
+    </footer>
+  </div>
+</body>
+</html>
